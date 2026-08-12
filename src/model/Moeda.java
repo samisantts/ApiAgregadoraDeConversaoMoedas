@@ -7,23 +7,20 @@ public class  Moeda {
     private char simbolo;
 
 
-    Moeda Dolla = new Moeda();
-    Moeda Real = new Moeda();
-    Moeda Euro = new Moeda();
-    Moeda DolaAustraliano = new Moeda();
+    public Moeda (String nome, String sigla, char simbolo) {
 
-
-    public String getNome() {
-        return nome;
     }
+        public String getNome() {
+            return nome;
+        }
 
-    public String getSigla() {
-        return sigla;
-    }
+        public String getSigla() {
+            return sigla;
+        }
 
-    public char getSimbolo() {
-        return simbolo;
+        public char getSimbolo() {
+            return simbolo;
+        }
     }
-}
 
 
