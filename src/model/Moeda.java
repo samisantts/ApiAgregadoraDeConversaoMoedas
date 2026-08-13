@@ -8,7 +8,9 @@ public class  Moeda {
 
 
     public Moeda (String nome, String sigla, char simbolo) {
-
+         this.nome = nome;
+         this.sigla = sigla;
+         this.simbolo = simbolo;
     }
         public String getNome() {
             return nome;
