@@ -1,6 +1,5 @@
 package service;
 import model.Moeda;
-
 import java.util.ArrayList;
 public class GerenciadorMoedas {
 
@@ -17,6 +16,19 @@ public class GerenciadorMoedas {
         moedas.add(DólarAustraliano);
 
 
+         for (int i = 0; i < moedas.size(); i++ ) {
+             Moeda moeda = moedas.get(i);
+             if (moeda.getSigla().equals("USD")){
+
+
+
+             }
+
+             }
+
+
         }
-    }
+
+        }
+
 
