@@ -9,26 +9,26 @@ public class GerenciadorMoedas {
     Moeda Dólar = new Moeda("Dólar", "USD", '$');
     Moeda DólarAustraliano = new Moeda("DólarAustraliano", "A$", '$');
 
+    public Moeda buscarMoeda(String sigla) {
 
-    public GerenciadorMoedas() {
-        moedas.add(euro);
-        moedas.add(Dólar);
-        moedas.add(DólarAustraliano);
+        for (int i = 0; i < moedas.size(); i++) {
+            Moeda moeda = moedas.get(i);
+            if (moeda.getSigla().equals(sigla)) {
+                return moeda;
+            }
+        }
+        return null;
+    }
+          public GerenciadorMoedas() {
+            moedas.add(euro);
+            moedas.add(Dólar);
+            moedas.add(DólarAustraliano);
 
-
-         for (int i = 0; i < moedas.size(); i++ ) {
-             Moeda moeda = moedas.get(i);
-             if (moeda.getSigla().equals("USD")){
-
-
-
-             }
-
-             }
 
 
         }
+    }
 
-        }
+
 
 
