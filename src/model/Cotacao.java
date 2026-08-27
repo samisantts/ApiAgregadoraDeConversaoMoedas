@@ -1,6 +1,5 @@
-package service;
+package model;
 
-import model.Moeda;
 public class Cotacao {
 
     private Moeda moedaDestino;
