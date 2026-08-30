@@ -12,17 +12,27 @@ public class Cotacao {
         this.moedaDestino = moedaDestino;
         this.moedaOrigem = moedaOrigem;
         this.valor = valor;
+
+        if (valor > 0) {
+            System.out.println("cotacao valida");
+        } else {
+            System.out.println("cotacao invalida");
+
+        }
     }
 
-    public Moeda getMoedaDestino() {
-        return moedaDestino;
+    public Moeda getMoedaDestino() { return moedaDestino;
     }
 
-    public Moeda getMoedaOrigem() {
-        return moedaOrigem;
+    public Moeda getMoedaOrigem() { return moedaOrigem;
     }
 
-    public Double getValor() {
-        return valor;
+    public Double getValor() { return valor;
+
     }
+
 }
+
+
+
+
