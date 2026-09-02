@@ -7,7 +7,7 @@ public class GerenciadorMoedas {
 
     Moeda euro = new Moeda("Euro", "EUR", '€');
     Moeda Dólar = new Moeda("Dólar", "USD", '$');
-    Moeda DólarAustraliano = new Moeda("DólarAustraliano", "A$", '$');
+    Moeda DólarAustraliano = new Moeda("DólarAustraliano", "AUD", '$');
 
     public Moeda buscarMoeda(String sigla) {
 
