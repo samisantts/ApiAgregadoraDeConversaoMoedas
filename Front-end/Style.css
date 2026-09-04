@@ -1,0 +1,153 @@
+/* ---------- BASE ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #eceef1;
+  --card-bg: #ffffff;
+  --field-bg: #f2f4f7;
+  --blue: #2f6bf2;
+  --blue-dark: #2557d6;
+  --text-dark: #1a1d24;
+  --text-muted: #8a919e;
+  --text-label: #9aa1ac;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+main {
+  width: 100%;
+  max-width: 480px;
+}
+
+
+main > section {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 10px 30px rgba(20, 25, 40, 0.06);
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: 0 0 24px;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 12.5px;
+  color: var(--text-label);
+  letter-spacing: 0.04em;
+}
+
+
+select,
+input {
+  border: none;
+  background: var(--field-bg);
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-dark);
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  transition: box-shadow 0.15s ease;
+}
+
+
+select:focus,
+input:focus {
+  box-shadow: 0 0 0 3px rgba(47, 107, 242, 0.25);
+}
+
+select {
+  appearance: none;
+  cursor: pointer;
+  
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%238A919E' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 36px;
+}
+
+input::placeholder {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+button[type="submit"] {
+  margin-top: 6px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  padding: 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(47, 107, 242, 0.3);
+  transition: background 0.15s ease;
+}
+
+button[type="submit"]:hover {
+  background: var(--blue-dark);
+}
+
+button[type="submit"]:active {
+  transform: translateY(1px);
+}
+
+
+
+form > section {
+  background: var(--field-bg);
+  border-radius: 14px;
+  padding: 16px;
+  font-size: 15px;
+  color: var(--text-dark);
+  text-align: center;
+  
+}
+
+form > section:empty {
+  display: none;
+}

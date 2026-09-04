@@ -14,7 +14,6 @@ public class Cotacao {
         this.valor = valor;
 
         if (valor > 0) {
-            System.out.println("cotacao valida");
         } else {
             System.out.println("cotacao invalida");
 
