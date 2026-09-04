@@ -1,87 +1,67 @@
-# 💰 Conversor de Moedas
+# 💱 Conversor de Moedas
 
-Projeto desenvolvido em **Java** com foco no aprendizado de **Programação Orientada a Objetos (POO)** e no desenvolvimento de uma aplicação de conversão de moedas.
+## 👨‍💻 Projeto Pessoal
+
+Este é um **projeto pessoal desenvolvido por mim** com o objetivo de colocar em prática meus conhecimentos em **Java, Programação Orientada a Objetos (POO), APIs e desenvolvimento Front-End**.
+
+A aplicação tem como objetivo realizar conversões entre diferentes moedas, utilizando uma estrutura organizada em Java e, posteriormente, integrando dados de uma API de cotações.
+
+> 🚧 **Projeto pessoal em desenvolvimento**
+
+## 🖥️ Sobre o projeto
+
+Este é meu **primeiro projeto pessoal** envolvendo uma aplicação que busca integrar **Back-End e Front-End**.
+
+Estou desenvolvendo o projeto durante meu processo de aprendizado, utilizando conceitos que venho estudando e buscando entender, na prática, como diferentes tecnologias podem trabalhar juntas.
+
+Durante o desenvolvimento estou colocando em prática conceitos como:
+
+* Programação Orientada a Objetos
+* Classes e objetos
+* Encapsulamento
+* Construtores
+* Métodos e atributos
+* Organização de responsabilidades
+* Consumo de APIs
+* Desenvolvimento de interfaces Web
+
+A ideia é continuar evoluindo este projeto conforme avanço nos meus estudos.
+
+## 🚀 Tecnologias utilizadas
+
+### Back-End
+
+* ☕ **Java**
+* 🧩 **Programação Orientada a Objetos (POO)**
+* 🌐 **API de conversão/cotação de moedas**
+* 🔗 **Git e GitHub**
+
+### Front-End
+
+* 🌐 **HTML5**
+* 🎨 **CSS3**
+* ⚡ **JavaScript**
 
 ## 🎯 Objetivo
 
-Desenvolver um sistema capaz de trabalhar com diferentes moedas e realizar conversões utilizando cotações obtidas através de uma API externa.
+O principal objetivo deste projeto pessoal é **aprender, praticar e evoluir meus conhecimentos em desenvolvimento de software**, construindo uma aplicação do início ao fim.
 
-O projeto está sendo desenvolvido de forma incremental, começando pela construção da lógica e da arquitetura da aplicação.
-
-## 🛠️ Tecnologias
-
-* Java
-* Programação Orientada a Objetos (POO)
-* Git
-* GitHub
-* IntelliJ IDEA
-
-## 🧠 Conceitos praticados
-
-Durante o desenvolvimento do projeto estão sendo praticados:
-
-* Classes e objetos
-* Atributos
-* Métodos
-* Construtores
-* Encapsulamento
-* Getters
-* Laços de repetição
-* Condicionais
-* Retorno de objetos
-* Organização por pacotes
-* Separação de responsabilidades
-* Git e GitHub
-
-## 🔎 Funcionamento atual
-
-O sistema possui uma classe responsável por representar as moedas e outra responsável pelo gerenciamento e busca dessas moedas.
-
-A aplicação consegue buscar uma moeda através da sua sigla e retornar o objeto correspondente.
-
-Exemplo:
-
-```java
-GerenciadorMoedas gerenciador = new GerenciadorMoedas();
-
-Moeda moedaEncontrada = gerenciador.buscarMoeda("USD");
-```
-
-Fluxo:
-
-```text
-Main
- ↓
-GerenciadorMoedas
- ↓
-Busca pela sigla
- ↓
-Encontra a moeda
- ↓
-Retorna o objeto Moeda
- ↓
-Main recebe a moeda
-```
-
-## 🚧 Próximos passos
-
-* [ ] Permitir entrada de dados pelo usuário
-* [ ] Melhorar o tratamento quando uma moeda não for encontrada
-* [ ] Criar a classe de cotação
-* [ ] Desenvolver a lógica de conversão
-* [ ] Integrar uma API externa de cotações
-* [ ] Trabalhar com data e hora das cotações
-* [ ] Implementar tratamento de exceções
-* [ ] Finalizar o sistema de conversão
-
-## 📌 Status
+## 🔄 Status do projeto
 
 🚧 **Em desenvolvimento**
 
-Projeto desenvolvido como parte do meu processo de aprendizado em **Java, POO e Backend**, com foco em evolução da lógica de programação e construção de sistemas de forma estruturada.
+Novas funcionalidades, melhorias no código e ajustes na interface serão adicionados conforme o projeto evolui.
 
-## 👨‍💻 Autor
+## 📚 Aprendizado
 
-**Sami Gonçalves Santos**
+Este projeto representa parte da minha evolução nos estudos de programação.
 
-Projeto desenvolvido para fins de estudo e evolução em desenvolvimento de software.
+Estou utilizando ele para transformar os conceitos estudados em algo prático, aprendendo com os erros, testando novas ideias e melhorando a estrutura da aplicação ao longo do desenvolvimento.
+
+---
+
+### 🚀 Projeto pessoal em constante evolução
+
+Desenvolvido por mim como parte dos meus estudos em **Java, Back-End, POO e desenvolvimento Web**.
+
+**O projeto ainda está em desenvolvimento e continuará recebendo melhorias conforme avanço nos meus estudos.**
