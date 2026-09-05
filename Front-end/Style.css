@@ -137,7 +137,6 @@ button[type="submit"]:active {
 }
 
 
-
 form > section {
   background: var(--field-bg);
   border-radius: 14px;
@@ -150,4 +149,11 @@ form > section {
 
 form > section:empty {
   display: none;
+}
+
+button[type="button"] {
+ order: none;
+    background: transparent;
+    font-size: 25px;
+    cursor: pointer;
 }
