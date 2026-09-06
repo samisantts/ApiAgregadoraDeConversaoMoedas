@@ -151,9 +151,32 @@ form > section:empty {
   display: none;
 }
 
-button[type="button"] {
- order: none;
-    background: transparent;
-    font-size: 25px;
+
+#botaoInverter { 
+  
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    font-size: 22px;
+    font-weight: bold;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+    transition: 0.2s;
+}
+
+#botaoInverter:hover {
+    background-color: #e5e5e5;
+    transform: scale(1.08);
+    
+}
+
+#botaoInverter:active {
+    transform: scale(0.95);
 }

@@ -1,11 +1,15 @@
-const  moedaOrigem = document.getElementById("mmoedaOrigem")
-const moedaDestino = document.getElementById("moedaDestino")
-const  inveter = document.getElementById ("inveter")
+const moedaOrigem = document.getElementById("moedaOrigem");
 
-let temporario = moedaOrigem.value 
+const moedaDestino = document.getElementById("moedaDestino");
+
+const botaoInverter = document.getElementById("botaoInverter");
 
 botaoInverter.addEventListener("click", () => {
 
+    let temporario = moedaOrigem.value;
 
+    moedaOrigem.value = moedaDestino.value;
+
+    moedaDestino.value = temporario;
 
 });
