@@ -1,11 +1,9 @@
 package conversormoedas;
-
+import java.util.Scanner;
 import model.Moeda;
 import service.BuscarCotacoes;
 import service.Cotacao;
 import service.GerenciadorMoedas;
-
-import java.util.Scanner;
 
 public class Main {
 
