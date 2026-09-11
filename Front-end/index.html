@@ -7,7 +7,7 @@
     <title>Conversor de Moedas</title>
 
     <link rel="stylesheet" href="style.css">
-    
+
 
 <body>
 
@@ -18,7 +18,7 @@
 
             <form id="formConversao">
 
-               
+
                 <div>
                     <label for="moedaOrigem">Moeda de origem</label>
 
@@ -55,25 +55,29 @@
                 </div>
 
                 <div>
-                    <label for="resultado">valor</label>
+                    <label for="resultado"></label>
 
                     <input
-                        type="text"
+                        type="number"
                         id="resultado"
                         name="resultado"
-                        placeholder="Resultado"
+                        placeholder="Valores"
                         min="0"
                         step="0.01"
-                        
+
                     >
                 </div>
 
                 <button type="submit">Converter</button>
 
+                <div>
+                    <button type="button" id="botao-tema" class="botao-tema">🌙</button>
+                </div>
+
             </form>
 
         </section>
-        
+
     </main>
            <script src="script.js"></script>
 </body>

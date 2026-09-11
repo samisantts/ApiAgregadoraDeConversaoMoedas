@@ -1,4 +1,4 @@
-package model;
+package conversormoedas.model;
 
 public class  Moeda {
 

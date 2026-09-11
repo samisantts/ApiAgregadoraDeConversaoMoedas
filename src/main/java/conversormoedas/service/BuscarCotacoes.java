@@ -1,5 +1,5 @@
-package service;
-import model.Moeda;
+package conversormoedas.service;
+import conversormoedas.model.Moeda;
 
 public class BuscarCotacoes {
 

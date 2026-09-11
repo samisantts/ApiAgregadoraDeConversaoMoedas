@@ -180,3 +180,32 @@ form > section:empty {
 #botaoInverter:active {
     transform: scale(0.95);
 }
+{
+
+  background-color: white;
+  color: black;
+}
+
+.botao-tema {
+  display:flex;
+
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: #ffffff;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.botao-tema:hover {
+  transform: scale(1.1);
+}
+
+.dark{
+  background-color: #0f0f1c;
+  color: white;
+}
