@@ -12,11 +12,18 @@ botaoInverter.addEventListener("click", () => {
 
     moedaDestino.value = temporario;
 
-
 });
+
 
 const botaoTema = document.getElementById("botao-tema");
 
 botaoTema.addEventListener("click", () => {
     document.body.classList.toggle("dark");
 });
+
+// Comunicação com o backend Spring
+fetch("http://localhost:8080/moedas/USD")
+    .then(resposta => resposta.json())
+    .then(dados => {
+        console.log(dados);
+    });
