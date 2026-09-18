@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MoedaController {
 
-        private final GerenciadorMoedas gerenciadorMoedas;
+    private final GerenciadorMoedas gerenciadorMoedas;
 
-        public MoedaController(GerenciadorMoedas gerenciadorMoedas) {
+    public MoedaController(GerenciadorMoedas gerenciadorMoedas) {
             this.gerenciadorMoedas = gerenciadorMoedas;
         }
 
