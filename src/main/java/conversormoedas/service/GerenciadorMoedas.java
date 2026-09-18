@@ -1,7 +1,10 @@
 package conversormoedas.service;
 import conversormoedas.model.Moeda;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 
+@Service
 public class GerenciadorMoedas {
 
     ArrayList<Moeda> moedas = new ArrayList<>();

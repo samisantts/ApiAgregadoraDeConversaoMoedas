@@ -10,6 +10,7 @@ public class TestController {
 
     public String teste() {
         return "API funcionando";
+
     }
 }
 
