@@ -22,6 +22,7 @@ botaoTema.addEventListener("click", () => {
 });
 
 // Comunicação com o backend Spring
+
 fetch("http://localhost:8080/moedas/USD")
     .then(resposta => resposta.json())
     .then(dados => {
