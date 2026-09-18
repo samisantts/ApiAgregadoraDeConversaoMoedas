@@ -1,4 +1,4 @@
-package conversormoedas;
+package conversormoedas.controller;
 
 import conversormoedas.model.Moeda;
 import conversormoedas.service.GerenciadorMoedas;
