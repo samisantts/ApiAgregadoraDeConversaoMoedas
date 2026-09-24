@@ -1,8 +1,6 @@
 package conversormoedas.service;
 import conversormoedas.model.Moeda;
-import org.springframework.stereotype.Service;
 
-@Service
 public class Cotacao {
 
     private Moeda moedaDestino;
@@ -16,7 +14,6 @@ public class Cotacao {
 
         if (valor > 0) {
         } else {
-            System.out.println("cotacao invalida");
 
         }
     }

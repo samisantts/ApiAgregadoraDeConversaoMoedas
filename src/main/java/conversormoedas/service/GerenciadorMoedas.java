@@ -13,7 +13,6 @@ public class GerenciadorMoedas {
     Moeda Dólar = new Moeda("Dólar", "USD", '$');
     Moeda DólarAustraliano = new Moeda("DólarAustraliano", "AUD", '$');
 
-
     public Moeda buscarMoeda(String sigla) {
 
         for (int i = 0; i < moedas.size(); i++) {
@@ -24,12 +23,10 @@ public class GerenciadorMoedas {
         }
         return null;
     }
-          public GerenciadorMoedas() {
-            moedas.add(euro);
-            moedas.add(Dólar);
-            moedas.add(DólarAustraliano);
-
-
+    public GerenciadorMoedas() {
+        moedas.add(euro);
+        moedas.add(Dólar);
+        moedas.add(DólarAustraliano);
 
         }
     }

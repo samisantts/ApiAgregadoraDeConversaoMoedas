@@ -6,23 +6,24 @@ public class  Moeda {
     private String sigla;
     private char simbolo;
 
-
     public Moeda (String nome, String sigla, char simbolo) {
-         this.nome = nome;
-         this.sigla = sigla;
-         this.simbolo = simbolo;
+        this.nome = nome;
+        this.sigla = sigla;
+        this.simbolo = simbolo;
+
     }
-        public String getNome() {
+    public String getNome() {
             return nome;
         }
 
-        public String getSigla() {
-            return sigla;
-        }
+    public String getSigla() {
+        return sigla;
+    }
 
-        public char getSimbolo() {
-            return simbolo;
-        }
+    public char getSimbolo() {
+        return simbolo;
+    }
+
     }
 
 
