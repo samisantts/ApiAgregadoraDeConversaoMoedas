@@ -1,5 +1,4 @@
-package conversormoedas.service;
-import conversormoedas.model.Moeda;
+package conversormoedas.model;
 
 public class Cotacao {
 
